@@ -1,0 +1,18 @@
+#!/bin/bash
+
+# python repo:
+#      |
+#      |----> session-1
+#                 |
+#                 |---> classtask
+#                 |           |--- session1.py
+#                 |---> hometasks
+#                             |--- task1.py                                                        
+#                             |--- task2.py
+
+
+mkdir -p session-1/class-task
+mkdir session-1/home-task
+touch session-1/class-task/session1.py
+touch session-1/home-task/task1
+touch session-1/home-task/task2
