@@ -1,0 +1,11 @@
+students = {
+    1:{"first_name": "John", "last_name": "Doe", "date_of_birth": "10/03/1999"},
+    2:{"first_name": "Alex", "last_name": "Doe", "date_of_birth": "20/06/2003"},
+    3:{"first_name": "Steve", "last_name": "Robin", "date_of_birth": "25/08/2015"}
+}
+# for key, value in students.items():
+for x in students:
+    print(f"Hello i am {students[x] ['first_name']} 'my last name is'{students[x] ['last_name']}'i was born in' {students[x] ['date_of_birth']}")
+    # print(f"Hello I'm {value['first_name']} {value['last_name']}. I was born in {value['date_of_birth']}.")
+    print("i am the student number",x)
+    # print(f"I'm the student number {key}")
