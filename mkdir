@@ -1,0 +1,33 @@
+#!/bin/bash
+
+# python repo:
+#      |
+#      |----> session-1
+#                 |
+#                 |---> classtask
+#                 |           |--- session1.py
+#                 |---> hometasks
+#                             |--- task1.py                                                        
+#                             |--- task2.py
+
+
+#!/bin/bash
+
+read -p "enter the season day to create a folder ? " sessionnumber
+mkdir $sessionnumber
+
+ read -p "enter the class task folder name ? " classtask0
+ mkdir  $sessionnumber/$classtask0
+
+read -p "enter the name of file inside class task folder ? " filename
+touch $sessionnumber/$classtask0/$filename
+
+
+read -p "enter the home task folder name ? "  hometask0
+mkdir  $sessionnumber/$hometask0
+
+       
+read -p "enter the name of first file name inside home task folder ? " filename1
+touch $sessionnumber/$hometask0/$filename1
+read -p "enter the name of second file name inside home task folder ? " filename2
+touch $sessionnumber/$hometask0/$filename2

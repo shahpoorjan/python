@@ -1,0 +1,100 @@
+# print ("this is line one")
+# print ("this is line two")
+# interger= "10"
+# float_num="10.2"
+# sec_float= "1.33"
+# print(interger , float_num  ," " , sec_float)
+# print (2*2)
+# print (10/2)
+# print (10-2)
+# print(12+2)
+
+#string indexing
+# word="mesbah"
+# print(word[1])
+# word= 'mesbah wahedi'
+# print(word[0:5:2])
+
+#string concatination
+# str1="shahpoor"
+# str2= "wahedi"
+# str3= "this is a new line"
+# print ( str1 , str2,  end='\n', sep=' space ' )
+
+# print(len("this is line one 'e line awal as'\n thi is line two ' e line dom as' \n this is line 3"'e line 3 as'))
+
+
+# inp= input ( "provide some sort of word ? ")
+# print (inp)
+
+# inp2= input ("enter your DOB ? ")
+# print (inp2)
+
+# inp3= input ("enter your place of birth ? ")
+# print (inp3)
+
+# print (f"the complete informatin for {inp} is as belows \n {inp} , {inp2} , {inp3}")
+
+
+# variable=input ("what is your name ? ")
+# print(f"His name is {variable}")
+
+# variable1= int(input("provide first # ? "))
+# variable2= int(input("provide  the second # ? "))  # int makes it do calculation not treated as string
+# print (variable1 / variable2)\
+
+
+# inp1=int(input("input your first  int number ?" ))
+# inp2=int(input("enter your second int number ? "))
+# print(inp1-inp2)
+
+
+
+# user_inp= len( input (" please enter the sentence i am counting the letters including spaces ? "))
+# print (user_inp)
+
+# inp=int(input("enter the C degree to convert it ? "))
+# result=( inp* 9/5 )
+# print(result)
+
+# first_number=10
+# second_number=15
+# print (first_number<second_number)
+
+
+#TRAFFIC LIGH
+# light=input ("Enter the Traffic light color (red, yellow, green? ")
+# if light == "red":
+#     input ("stop")
+# if light == "yellow":
+#     input ("slow down")
+# if light == "green":
+#     input ("go..")
+# biology=int(input("enter your score for biology? "))
+# math=int(input("enter your score for math? "))
+# chemstry=int(input("enter your score for chemstry? "))
+# credit= 0
+# if biology >= 50:
+#     credit +=1
+# if math >= 50:
+#     credit +=1
+# if chemstry >= 50:
+#     credit +=1
+# if credit == 1:
+#     print("u passed 1")
+# elif credit == 2:
+#     print("u passed 2")
+# elif credit == 3:
+#     print("u passed 3")
+# elif credit == 0:
+#     print (" you are an idiot")
+
+# print("i\'am python developer! \ni am so exited")
+# print('I\'m learning to become a Python developer!\nI\'m so excited!')
+
+x = 0
+y = 1
+a = x ^ y
+b = x | y
+c = x & y
+print(a + b + c)

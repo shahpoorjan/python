@@ -1,0 +1,6 @@
+sec_num= 12
+user_inp=int(input("guese the sec number ? "))
+while user_inp != sec_num:
+        print("worng guese")
+        user_inp=int(input("guese the sec number ? "))
+print("perfect")

@@ -1,0 +1,113 @@
+# numeric data types
+#Binary
+ # ==> 0,1 
+  #==> binary represntaion of a number in python is 0b
+#bin function translats from decimal to binary
+# print (0b001000)
+# print(bin(8))
+
+#Hexidecimal
+    #hexadecimal = 16   0x (0-9) (a-f)
+    #hex-dec function translats from decimal to hex
+# print(0x123fd3)
+# print(hex(100))
+
+#Octal
+    #==> =8      0-7
+    #0o
+    # print(0o4361)
+    # print(oct())
+
+# each programming lan has its own variable vonventions ( best practises)
+# 1: snack_casing    2: camel_casing
+#last_name--> snake_casing
+#lastname--> camal_casing         in python we use always snack_casing
+# Regular_variable ="hello"
+#_hidden_varaible=
+
+
+#Booloeans
+    #anther data type and only have 2 states true and false
+    # myvar=True
+    # myvar1=False
+    # #and . or. not
+        # and connects 2 e booleans to form a single decision.
+        # print(True and True) #True and True → True
+                             #True and False → False
+                             #False and False → False
+
+        #or                  #True or True → True
+                             #True or False → True
+                             # False or False → False
+
+                             # and has priority in true and fals
+#if <condition1>   and /or <condition2>
+
+# to form a condition we need camparision operators like =>, or=< or ,< less then
+# all of the camparision operators return boolean data type
+# print(50 == 50)
+
+#IF condition                   (always takes Boolean data type (true /false)
+#if condition always runs when the final decision is True
+# if <condition> and <condition2>:
+    #indentation Tab
+    #conde
+#     if <condition>:
+#         #indentiaion
+#         #code
+# elif <condition1>  or <condition2>:
+#     #indention and code.
+#     if <condition>:
+# else 
+    
+# inp= input("provid the first input ?")
+# inp2=input("provid the second input")
+
+# if len(inp) > len(inp2):
+#     print(inp)
+# elif len(inp2) > len(inp):
+#     print(inp2)
+# else:
+#     print("it is not greater or less then ")
+
+
+# inp = int(input("Enter the year to check: "))
+# if inp % 4 == 0:
+#     print ("it is a leap year")
+# elif inp % 100 == 0 and inp % 4 == 0 :
+#     print ( "it is not a leap year")
+# else:
+#     print(" ")
+
+
+    
+# inp= int(input( "please provide your from (0-100)? " ))
+# if inp <=100 and inp >= 90:
+#     print ("your grade is A")
+# elif inp <=90 and inp >= 80:
+#     print("your grade is B")
+# elif inp <=80 and inp >=70:
+#     print("your grade is c")
+# elif inp <= 70 and inp >=60:
+#     print("your grade is d")
+# elif inp < 60 and inp > 0 :
+#     print ("your grade is F")
+# else:
+#     print(" your input is invalid")
+
+# inp= int(input (" please provide your number from 1-100 ? "))
+# if inp >= 90 and inp <= 100:
+#     print(" your score is A")
+# elif inp >= 80 and inp <= 89:
+#     print(" your score is B ")
+# elif inp >= 70 and inp <= 79:
+#     print("your score is C")
+# elif inp <= 69 and inp >= 60:
+#     print (" your score is D")
+# elif inp >= 0 and inp <=50:
+#     print("  your score is F .\n")
+# else: 
+#     print("i told you provide a number between 0 - 100 ")
+
+inp= input("first bool")
+inp2= input("second bool")

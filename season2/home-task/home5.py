@@ -13,9 +13,27 @@
 #     print("the number is odd!")
 
 #Ask the user to enter a password. If it matches "secret123", print "Access granted".
-secerat_password= secret123
-userinp= print("Enter your password..")
-if user_input = secerat_password:
-    print ("Password Granted ..")
-else
-    print ("incorect password please try again latter .. ")
+# secerat_password= "secret123"
+# userinp= input("Enter your password..")
+# if userinp == secerat_password:
+#     print ("Password Granted ..")
+# else:
+#     print ("incorect password please try again latter .. ")
+# age= int(input(" Enter your aga: "))
+# if age <= 12 and age > 0: 
+#     print("\n 50%  discount")
+# elif age >= 65:
+#     print("\n 30% discount")
+# else:
+#     print("\n No discount")
+
+math=       int(input("provide your math score: "))
+biology=    int(input("provide your biology score: "))
+chemistry=  int(input("provide your chemistry score: "))
+if math >= 50 and biology >= 50 and  chemistry >= 50:
+    print ("passed all all subjects ")
+elif math < 50 and biology < 50 and  chemistry < 50:
+    print("failed all subjects ")
+else:
+    print("invalid entry")
+
