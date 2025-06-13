@@ -1,0 +1,11 @@
+range1= int(input("range: "))
+break1= int(input("range: "))
+if range1 < break1:
+    print("out of range")
+else:
+    counter=0
+    while counter < range1:
+        if break1 == counter:
+            break
+        print(counter)
+        counter += 1
