@@ -1,0 +1,13 @@
+
+students = {
+    "Ali": [70, 80, 90],
+    "Zara": [40, 55, 60],
+    "Omar": [100, 90, 95],
+    "Sara": [30, 50, 45]
+}
+for name ,score in students.items():
+    average =sum(score) / len(score)
+    if average >= 60:
+        print (name , "passed with average of" , round(average , 2))
+    else:
+        print(name , "failed with average of" , round(average , 2))

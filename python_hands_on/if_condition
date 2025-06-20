@@ -1,0 +1,26 @@
+total_amount = 0.0
+inp1=input ("enter first fruit to check if we have it? ").lower()
+inp2=input ("enter second fruit to check if we have it? ").lower()
+inp3=input ("enter third fruit to check if we have it? ").lower()
+if inp1 in store:
+    print(f"{inp1} is availble")
+    total_amount += store[inp1]
+else:
+    print(f"{inp1} out of stock")
+
+
+if inp2 in store:
+    print(f"{inp2} is availble")
+    total_amount += store[inp2]
+else:
+    print(f'{inp2} out of stock')
+
+
+if inp3 in store:
+    print(f"{inp3} is availble")
+    total_amount += store[inp3]
+else:
+    print(f'{inp3} out of stock')
+
+
+print ("total price" ,total_amount)
